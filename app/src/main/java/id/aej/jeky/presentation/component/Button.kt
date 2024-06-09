@@ -14,9 +14,7 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.dp
 import id.aej.jeky.presentation.theme.Primary
 
-/**
- * Created by dino.priyano on 16/07/23.
- */
+
 
 @Composable fun JekyButton(
   modifier: Modifier,

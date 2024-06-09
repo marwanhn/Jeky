@@ -15,9 +15,7 @@ import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
 
-/**
- * Created by dino.priyano on 16/07/23.
- */
+
 
 @Composable fun EmptyUi(
   modifier: Modifier,

@@ -6,9 +6,6 @@ import id.aej.jeky.core.domain.repository.AuthRepository
 import id.aej.jeky.core.domain.usecase.AuthUseCase
 import kotlinx.coroutines.flow.Flow
 
-/**
- * Created by dino.priyano on 30/07/23.
- */
 class AuthInteractor constructor(
   private val authRepository: AuthRepository
 ): AuthUseCase {

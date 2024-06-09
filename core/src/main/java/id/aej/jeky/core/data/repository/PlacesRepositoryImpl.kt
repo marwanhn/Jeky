@@ -9,9 +9,6 @@ import id.aej.jeky.core.domain.repository.PlacesRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
-/**
- * Created by dino.priyano on 20/08/23.
- */
 class PlacesRepositoryImpl constructor(
   private val apiService: JekyService
 ): PlacesRepository, SafeApiCall {

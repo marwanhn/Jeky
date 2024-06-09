@@ -9,9 +9,6 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 
-/**
- * Created by dino.priyano on 30/07/23.
- */
 class UserRepositoryImpl constructor(
   private val dataStore: JekyDataStore
 ): UserRepository {

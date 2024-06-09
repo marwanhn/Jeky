@@ -12,9 +12,7 @@ import id.aej.jeky.R
 import id.aej.jeky.domain.model.EmptyStateModel
 import id.aej.jeky.presentation.component.EmptyUi
 
-/**
- * Created by dino.priyano on 16/07/23.
- */
+
 
 @Composable fun ErrorScreen(
   emptyParams: EmptyStateModel?, onBack: () -> Unit

@@ -13,9 +13,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-/**
- * Created by dino.priyano on 18/09/23.
- */
+
 class HomeViewModel constructor(
   private val placesUseCase: PlacesUseCase
 ): ViewModel() {

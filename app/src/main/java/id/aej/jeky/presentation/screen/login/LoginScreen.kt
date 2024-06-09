@@ -45,9 +45,6 @@ import id.aej.jeky.presentation.component.TrailingTextField
 import id.aej.jeky.presentation.theme.Black
 import id.aej.jeky.presentation.theme.Primary
 
-/**
- * Created by dino.priyano on 07/05/23.
- */
 
 @OptIn(ExperimentalComposeUiApi::class) @Composable fun LoginScreen(
   viewModel: LoginViewModel,

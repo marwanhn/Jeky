@@ -39,9 +39,6 @@ import id.aej.jeky.presentation.navigation.Route
 import id.aej.jeky.presentation.screen.pick_location.PLACES_BUNDLE
 import id.aej.jeky.presentation.theme.Primary
 
-/**
- * Created by dino.priyano on 07/05/23.
- */
 
 @OptIn(ExperimentalPermissionsApi::class) @Composable fun HomeScreen(
   saveStateHandle: SavedStateHandle?,

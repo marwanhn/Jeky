@@ -49,10 +49,6 @@ import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filter
 
-/**
- * Created by dino.priyano on 04/06/23.
- */
-
 const val PLACES_BUNDLE = "places"
 
 @Composable fun PickLocationBottomSheet(

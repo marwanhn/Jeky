@@ -15,9 +15,6 @@ import androidx.compose.ui.unit.dp
 import id.aej.jeky.presentation.theme.Black
 import id.aej.jeky.presentation.theme.Label
 
-/**
- * Created by dino.priyano on 01/05/23.
- */
 
 @Composable fun TextHeader(
   modifier: Modifier = Modifier,

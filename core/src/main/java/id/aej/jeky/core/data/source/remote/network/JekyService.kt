@@ -8,9 +8,7 @@ import retrofit2.http.POST
 import retrofit2.http.Query
 import retrofit2.http.Url
 
-/**
- * Created by dino.priyano on 20/08/23.
- */
+
 interface JekyService {
 
   companion object {

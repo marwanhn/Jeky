@@ -23,9 +23,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
 
-/**
- * Created by dino.priyano on 18/06/23.
- */
 class JekyContainerImpl constructor(
   private val context: Context
 ) : JekyContainer {

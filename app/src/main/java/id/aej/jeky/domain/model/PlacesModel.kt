@@ -3,9 +3,7 @@ package id.aej.jeky.domain.model
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
-/**
- * Created by dino.priyano on 18/09/23.
- */
+
 
 @Parcelize
 data class PlacesModel(

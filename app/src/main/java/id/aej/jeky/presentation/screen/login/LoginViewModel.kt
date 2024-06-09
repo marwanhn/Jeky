@@ -13,9 +13,6 @@ import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.launch
 
-/**
- * Created by dino.priyano on 02/07/23.
- */
 class LoginViewModel constructor(
   private val useCase: AuthUseCase,
   private val userUseCase: UserUseCase

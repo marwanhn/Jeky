@@ -1,7 +1,7 @@
 package id.aej.jeky.core.data.source
 
 /**
- * Created by dino.priyano on 02/07/23.
+ *  by dino.priyano on 02/07/23.
  */
 sealed class Resource<out T> {
   data class Success<T>(val data: T): Resource<T>()

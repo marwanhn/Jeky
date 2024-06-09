@@ -5,9 +5,6 @@ import id.aej.jeky.core.domain.repository.UserRepository
 import id.aej.jeky.core.domain.usecase.UserUseCase
 import kotlinx.coroutines.flow.Flow
 
-/**
- * Created by dino.priyano on 30/07/23.
- */
 class UserInteractor constructor(
   private val userRepository: UserRepository
 ): UserUseCase {

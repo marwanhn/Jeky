@@ -38,9 +38,7 @@ import androidx.constraintlayout.compose.Dimension
 import id.aej.jeky.R
 import id.aej.jeky.presentation.theme.Primary
 
-/**
- * Created by dino.priyano on 28/05/23.
- */
+
 
 @OptIn(ExperimentalMaterial3Api::class) @Composable fun PointField(
   modifier: Modifier = Modifier,

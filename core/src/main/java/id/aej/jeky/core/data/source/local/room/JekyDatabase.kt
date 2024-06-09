@@ -7,9 +7,6 @@ import androidx.room.RoomDatabase
 import id.aej.jeky.core.data.source.local.room.dao.UserDao
 import id.aej.jeky.core.data.source.local.room.entity.UserEntity
 
-/**
- * Created by dino.priyano on 18/06/23.
- */
 
 @Database(
   entities = [UserEntity::class],

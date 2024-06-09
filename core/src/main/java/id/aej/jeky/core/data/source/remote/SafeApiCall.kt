@@ -7,9 +7,7 @@ import retrofit2.HttpException
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
 
-/**
- * Created by dino.priyano on 20/08/23.
- */
+
 
 interface SafeApiCall {
   suspend fun <T> safeApiCall(

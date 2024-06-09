@@ -6,9 +6,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import id.aej.jeky.core.domain.model.User
 
-/**
- * Created by dino.priyano on 18/06/23.
- */
+
 
 @Entity(
   tableName = "user"

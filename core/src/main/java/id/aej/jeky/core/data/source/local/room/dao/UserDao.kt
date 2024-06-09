@@ -6,9 +6,6 @@ import androidx.room.Query
 import id.aej.jeky.core.data.source.local.room.entity.UserEntity
 import kotlinx.coroutines.flow.Flow
 
-/**
- * Created by dino.priyano on 18/06/23.
- */
 
 @Dao
 interface UserDao {

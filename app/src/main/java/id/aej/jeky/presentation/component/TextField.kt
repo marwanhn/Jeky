@@ -34,9 +34,7 @@ import id.aej.jeky.presentation.theme.Icon
 import id.aej.jeky.presentation.theme.Label
 import id.aej.jeky.presentation.theme.Primary
 
-/**
- * Created by dino.priyano on 07/05/23.
- */
+
 
 @Composable fun PlainTextField(
   modifier: Modifier = Modifier,

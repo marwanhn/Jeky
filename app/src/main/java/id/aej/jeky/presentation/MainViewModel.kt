@@ -15,9 +15,6 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-/**
- * Created by dino.priyano on 30/07/23.
- */
 class MainViewModel constructor(
   private val userUseCase: UserUseCase
 ): ViewModel() {

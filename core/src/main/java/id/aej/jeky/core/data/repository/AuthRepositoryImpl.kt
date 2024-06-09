@@ -14,9 +14,6 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 
-/**
- * Created by dino.priyano on 18/06/23.
- */
 class AuthRepositoryImpl constructor(
   private val dao: UserDao
 ): AuthRepository {

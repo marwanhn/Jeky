@@ -18,9 +18,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-/**
- * Created by dino.priyano on 20/08/23.
- */
 class PickLocationViewModel constructor(
   private val placesUseCase: PlacesUseCase
 ): ViewModel() {
